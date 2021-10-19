@@ -74,4 +74,8 @@ public class LevelManager : MonoBehaviour
     {
         LoadMainMenu();
     }
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }

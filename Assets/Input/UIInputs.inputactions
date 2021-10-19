@@ -1,0 +1,33 @@
+{
+    "name": "UIInputs",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "34cbaba0-d0c0-4977-954f-6eb5232881de",
+            "actions": [
+                {
+                    "name": "Pause",
+                    "type": "PassThrough",
+                    "id": "e5b21590-39e2-4c45-b03e-08dd7f27e0c6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d0f7900c-38e0-4f4d-9aee-d6b7fa1b3a09",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
