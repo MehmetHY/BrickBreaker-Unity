@@ -12,6 +12,7 @@ public class Brick : MonoBehaviour
     private SpriteRenderer _spriteRenderer;
     void Start()
     {
+        FindObjectOfType<LevelManager>().IncreaseBrickCount();
         _spriteRenderer = GetComponent<SpriteRenderer>();
         ChangeColor();
     }
@@ -26,7 +27,7 @@ public class Brick : MonoBehaviour
             case 2:
                 _spriteRenderer.color = HEALTH_2_COLOR;
                 break;
-            case 3:
+            default:
                 _spriteRenderer.color = HEALTH_3_COLOR;
                 break;
         }
@@ -48,10 +49,16 @@ public class Brick : MonoBehaviour
     private void TakeDamage()
     {
         _health--;
-        ChangeColor();
         if (_health < 1)
         {
-            Destroy(gameObject);
+            DestroyBrick();
+            return;
         }
+        ChangeColor();
+    }
+    private void DestroyBrick()
+    {
+        FindObjectOfType<LevelManager>().DecreaseBrickCount();
+        Destroy(gameObject);
     }
 }

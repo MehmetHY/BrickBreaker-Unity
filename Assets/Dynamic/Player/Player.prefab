@@ -137,8 +137,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 598b6b17be833e145b3ca901932c9afd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _leftWall: {fileID: 0}
-  _rightWall: {fileID: 0}
+  _leftBound: {fileID: 0}
+  _rightBound: {fileID: 0}
   _ball: {fileID: 0}
   _linearDrag: 0.3
   _acceleration: 1.5

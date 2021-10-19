@@ -61,7 +61,10 @@ public class Player : MonoBehaviour
     }
     private void OnFire()
     {
-        _ball.Launch();
+        if (!_ball.IsLaunched)
+        {
+            _ball.Launch();
+        }
     }
     private void HandleBounds()
     {
