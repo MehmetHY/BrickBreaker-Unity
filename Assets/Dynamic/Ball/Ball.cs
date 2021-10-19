@@ -8,7 +8,7 @@ public class Ball : MonoBehaviour
 
     [SerializeField] private float _launchSpeed = 10.0f;
     [SerializeField] private float _maxSpeed = 10.0f;
-    [SerializeField] private float _randomForce = 1.0f;
+    [SerializeField] private float _randomForce = 3.0f;
 
     private bool isLaunched = false;
     private Rigidbody2D _rb;

@@ -287,10 +287,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1914861564606649127, guid: d6c4c710291b4b546abbe78de0a7dfd4, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: e10b88ff1b9fa9e4e811aa3dc443f879, type: 2}
     - target: {fileID: 5099265683178776862, guid: d6c4c710291b4b546abbe78de0a7dfd4, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -338,10 +334,6 @@ PrefabInstance:
     - target: {fileID: 8611773935390545490, guid: d6c4c710291b4b546abbe78de0a7dfd4, type: 3}
       propertyPath: m_Name
       value: Brick
-      objectReference: {fileID: 0}
-    - target: {fileID: 8611773935390545490, guid: d6c4c710291b4b546abbe78de0a7dfd4, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6c4c710291b4b546abbe78de0a7dfd4, type: 3}
